@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222AF71827CF84BA00E12A38 /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF71627CF84BA00E12A38 /* Entity+CoreDataClass.swift */; };
+		222AF71927CF84BA00E12A38 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF71727CF84BA00E12A38 /* Entity+CoreDataProperties.swift */; };
 		22FC9E4827CEF337009D629B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC9E4727CEF337009D629B /* AppDelegate.swift */; };
 		22FC9E4A27CEF337009D629B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC9E4927CEF337009D629B /* SceneDelegate.swift */; };
 		22FC9E4C27CEF337009D629B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC9E4B27CEF337009D629B /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222AF71627CF84BA00E12A38 /* Entity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		222AF71727CF84BA00E12A38 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		22FC9E4427CEF337009D629B /* githubDemoDavid-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "githubDemoDavid-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FC9E4727CEF337009D629B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FC9E4927CEF337009D629B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		22FC9E3B27CEF337009D629B = {
 			isa = PBXGroup;
 			children = (
+				222AF71627CF84BA00E12A38 /* Entity+CoreDataClass.swift */,
+				222AF71727CF84BA00E12A38 /* Entity+CoreDataProperties.swift */,
 				22FC9E4627CEF337009D629B /* githubDemoDavid-1 */,
 				22FC9E4527CEF337009D629B /* Products */,
 			);
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AF71927CF84BA00E12A38 /* Entity+CoreDataProperties.swift in Sources */,
 				22FC9E4C27CEF337009D629B /* ViewController.swift in Sources */,
 				22FC9E4827CEF337009D629B /* AppDelegate.swift in Sources */,
 				22FC9E5227CEF337009D629B /* githubDemoDavid_1.xcdatamodeld in Sources */,
+				222AF71827CF84BA00E12A38 /* Entity+CoreDataClass.swift in Sources */,
 				22FC9E4A27CEF337009D629B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
